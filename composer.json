@@ -24,7 +24,7 @@
 			"dansoap" : "src"
 		},
 		"files" : [
-			"src/dansoap/strict"
+			"src/dansoap/strict.php"
 		]
 	}
 }
