@@ -1,0 +1,30 @@
+{
+	"name" : "dansoap/php-dev-strict-mode",
+	"description" : "Enforces strict mode during php development",
+	"version" : "0.1.0-dev",
+	"type" : "library",
+	"authors" : [{
+			"name" : "Daniel Seif",
+			"email" : "dansoap@castex.de",
+			"homepage" : "http://dansoap.de/",
+			"role" : "Developer"
+		}
+	],
+	"keywords" : [
+		"php strict"
+	],
+	"license" : [
+		"MIT"
+	],
+	"require" : {
+		"php" : ">=5.3"
+	},
+	"autoload" : {
+		"psr-0" : {
+			"dansoap" : "src"
+		},
+		"files" : [
+			"src/dansoap/strict"
+		]
+	}
+}
